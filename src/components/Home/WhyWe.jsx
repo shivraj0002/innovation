@@ -39,7 +39,7 @@ const WhyWe = () => {
               <div className="font-medium text-white text-2xl border-[#f1f1f1] border-2 rounded-full p-2 shadow-2xl">
                 <span>{e.key}</span>
               </div>
-              <div className="shadow font-medium text-xl italic bg-gray-100 text-gray-900 flex items-center shadow-black p-1 pl-2">
+              <div className="shadow font-medium text-xl italic rounded-lg  bg-gray-100 text-gray-900 flex items-center shadow-black p-1 pl-2">
                 {e.text}
               </div>
             </div>
