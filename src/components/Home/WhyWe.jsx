@@ -25,7 +25,7 @@ const dataItems = [
 
 const WhyWe = () => {
   return (
-    <div className="py-8 px-8 bg-gray-100 flex flex-col items-center ">
+    <div className="py-8 px-8 bg-purple-700 flex flex-col items-center ">
       <div className="text-center">
         <h3 className="font-semibold text-2xl text-white underline">
           Why We
@@ -35,7 +35,7 @@ const WhyWe = () => {
       <div>
         {dataItems.map((e) => {
           return (
-            <div className="flex gap-3 w-4/5 mx-auto font-semibold my-4 items-center">
+            <div className="flex gap-3 w-4/5 mx-auto font-semibold my-4 items-center bg-gray-100">
               <div className="font-medium text-white text-2xl border-[#f1f1f1] border-2 rounded-full p-2 shadow-2xl">
                 <span>{e.key}</span>
               </div>
