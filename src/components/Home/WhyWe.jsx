@@ -25,7 +25,7 @@ const dataItems = [
 
 const WhyWe = () => {
   return (
-    <div className="py-8 px-8 bg-purple-700 flex flex-col items-center ">
+    <div className="py-8 px-8 bg-gray-100 flex flex-col items-center ">
       <div className="text-center">
         <h3 className="font-semibold text-2xl text-white underline">
           Why We
