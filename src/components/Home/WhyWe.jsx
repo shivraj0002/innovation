@@ -35,11 +35,11 @@ const WhyWe = () => {
       <div>
         {dataItems.map((e) => {
           return (
-            <div className="flex gap-3 w-4/5 mx-auto font-semibold my-4 items-center bg-gray-100">
+            <div className="flex gap-3 w-4/5 mx-auto font-semibold my-4 items-center">
               <div className="font-medium text-white text-2xl border-[#f1f1f1] border-2 rounded-full p-2 shadow-2xl">
                 <span>{e.key}</span>
               </div>
-              <div className="shadow font-medium text-xl italic text-gray-900 flex items-center shadow-black p-1 pl-2">
+              <div className="shadow font-medium text-xl italic bg-gray-100 text-gray-900 flex items-center shadow-black p-1 pl-2">
                 {e.text}
               </div>
             </div>
